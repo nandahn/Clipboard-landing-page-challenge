@@ -118,3 +118,73 @@ cores foram definidas individualmente */
     text-align: center;
     color: var(--Grayish-Blue);
 }
+
+/* estilizando seção 3 */
+
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+
+.left-side{
+    flex: 1;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.title-{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+
+.info-1{
+    width: 340px;
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+    /* background-color: red; */
+}
+
+.info-2{
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+    width: 350px;
+}
+
+.info-3{
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+    width: 350px;
+  
+}
+
+.tc{
+    margin-bottom: 30px;
+}
+
+.tc:nth-child(1){
+    /* background-color: cadetblue; */
+    margin-top: 100px;
+}
+
+
+
