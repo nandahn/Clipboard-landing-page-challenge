@@ -34,6 +34,13 @@ body{
     background-size: contain;
     font-family: 'Bai Jamjuree', sans-serif;
 }
+/* estilos genéricos  */
+
+.margin-s-top{
+    margin-top: 100px; /* margem padrão entre as seções */
+}
+
+/* estilizando a seção 2 */
 .container-1{
     display: flex;
     align-items: center;
@@ -87,4 +94,27 @@ cores foram definidas individualmente */
 
 #btn-mac{
     background-color: var(--Light-Blue);
+}
+
+/* estilizando a seção 2 */
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-2{
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.content-2{
+    /* background-color: red; */
+    width: 620px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Grayish-Blue);
 }
