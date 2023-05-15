@@ -8,13 +8,13 @@
 :root{
 
 /* Primary */
---Strong-Cyan: hsl(171, 66%, 44%);
---Light-Blue: hsl(233, 100%, 69%);
+--Strong-Cyan: hsl(171, 66%, 44%); /* botoes */
+--Light-Blue: hsl(233, 100%, 69%); /* botoes */
 
 /* Neutral */
 
---Dark-Grayish-Blue: hsl(210, 10%, 33%);
---Grayish-Blue: hsl(201, 11%, 66%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%); /* titulos */
+--Grayish-Blue: hsl(201, 11%, 66%); /* subtitulos */
 }
 
 
@@ -48,4 +48,43 @@ body{
 
 .logo img{
     width: 90px;
+}
+
+.title-1{
+    font-size: 25px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.content-1{
+    width: 550px;
+    /* uso apenas para ver e definir os tamanhos de forma mais fácil */
+    /* background-color: red;  */
+    text-align: center;
+    color: var(--Grayish-Blue);
+}
+
+
+/* definindo as propriedades dos botoes 
+cores foram definidas individualmente */
+
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* definindo individualmente as cores dos botões  */
+
+#btn-ios{
+    background-color: var(--Strong-Cyan);
+}
+
+#btn-mac{
+    background-color: var(--Light-Blue);
 }
