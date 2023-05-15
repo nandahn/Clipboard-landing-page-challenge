@@ -145,7 +145,7 @@ cores foram definidas individualmente */
     font-weight: 600;
     color: var(--Dark-Grayish-Blue);
 }
-.title-{
+.title{
     font-size: 20px;
     font-weight: 600;
     color: var(--Dark-Grayish-Blue);
@@ -186,5 +186,49 @@ cores foram definidas individualmente */
     margin-top: 100px;
 }
 
+/* estilizando a seção 4 */
 
+.container-4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
 
+.title-4{
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.content-4{
+    /* background-color: red; */
+    text-align: center;
+    color: var(--Grayish-Blue);
+    width: 600px;
+}
+
+.img-section img{
+    margin-top: 80px;
+}
+
+/* estilizando seção 5 */
+
+.container-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title-5{
+    font-size: 25px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: bolder;
+}
+
+.content-5{
+    color: var(--Grayish-Blue);
+}
