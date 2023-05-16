@@ -229,6 +229,79 @@ cores foram definidas individualmente */
     font-weight: bolder;
 }
 
+
 .content-5{
     color: var(--Grayish-Blue);
 }
+
+.container-6{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.title-item{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.content-item{
+    /* background-color: red; */
+    width: 350px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+}
+
+/* estilizando seção 7*/
+
+.container-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 100px;
+}
+
+
+/* seção 8 */
+
+.container-8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-8{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.content-8{
+    width: 600px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--Grayish-Blue);
+}
+
+/* estilizando footer */
+
+
+
+
+
+
+
